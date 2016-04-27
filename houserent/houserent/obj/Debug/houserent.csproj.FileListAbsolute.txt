@@ -20,3 +20,4 @@ D:\git\house-rent\houserent-new\houserent\houserent\bin\zh-Hans\EntityFramework.
 D:\git\house-rent\houserent-new\houserent\houserent\bin\zh-Hans\System.Web.Providers.resources.dll
 D:\git\house-rent\houserent-new\houserent\houserent\obj\Debug\houserent.dll
 D:\git\house-rent\houserent-new\houserent\houserent\obj\Debug\houserent.pdb
+D:\git\house-rent\houserent-new\houserent\houserent\obj\Debug\houserent.csprojResolveAssemblyReference.cache

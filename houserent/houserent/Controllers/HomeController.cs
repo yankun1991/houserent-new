@@ -13,8 +13,6 @@ namespace houserent.Controllers
 
         public ActionResult Index()
         {
-            int a=0;
-            int b = 2 / a;
             return View();
         }
 
