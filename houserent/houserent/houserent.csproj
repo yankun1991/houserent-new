@@ -125,6 +125,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\sql.sql" />
+    <Content Include="Content\Image\error\bg.gif" />
+    <Content Include="Content\Image\error\emessage.gif" />
+    <Content Include="Content\Image\error\error.gif" />
+    <Content Include="Content\Image\error\left.gif" />
+    <Content Include="Content\Image\error\right.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -181,6 +186,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="App_Data\renthouse.pdm" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -220,10 +226,7 @@
     <Content Include="Views\List\List.cshtml" />
     <Content Include="Views\PublishProduct\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
