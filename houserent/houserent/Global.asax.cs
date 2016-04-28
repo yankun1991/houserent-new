@@ -24,17 +24,17 @@ namespace houserent
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            //routes.MapRoute(
-            //    "Home", // 路由名称
-            //    "{controller}/{action}/{id}", // 带有参数的 URL
-            //    new { controller = "Home", action = "Index", id = UrlParameter.Optional } // 参数默认值
-            //);
-
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "List", action = "List", id = UrlParameter.Optional }
+                "Home", // 路由名称
+                "{controller}/{action}/{id}", // 带有参数的 URL
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional } // 参数默认值
             );
+
+            //routes.MapRoute(
+            //    name: "Default",
+            //    url: "{controller}/{action}/{id}",
+            //    defaults: new { controller = "List", action = "List", id = UrlParameter.Optional }
+            //);
 
         }
 
@@ -53,7 +53,7 @@ namespace houserent
         {
             Exception ex = HttpContext.Current.Server.GetLastError();
             File.WriteAllText(HttpContext.Current.Server.MapPath("~/log.txt"), ex.Message + DateTime.Now.ToShortTimeString());
-            //Response.Redirect("./404error.htm");
+            Response.Redirect("./404error.htm");
         }
     }
 }
